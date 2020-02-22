@@ -12,7 +12,7 @@ Monthly_ProfitChange = []
 
 # Open, Read, and Create Dictionary from CSV File
 
-csv_path_input = os.path.join('C:/Users/kodar/Desktop/Homework Files (WIP)', 'budget_data.csv')
+csv_path_input = os.path.join('Resources', 'budget_data.csv')
 
 with open(csv_path_input, encoding="utf8", newline='') as input_file:
 
@@ -54,7 +54,7 @@ print()
 print()
 
 # Create, Open, and Write Text File
-csv_path_output = os.path.join('C:/Users/kodar/Desktop/Homework Files (WIP)', 'budget_data_analysis.txt')
+csv_path_output = os.path.join('Output', 'budget_data_analysis.txt')
 
 with open(csv_path_output, "w") as output_file:
     output_file.write("\n")

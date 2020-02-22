@@ -7,7 +7,7 @@ ElectionData_Dictionary = {}
 
 # Open, Read, and Create Dictionary from CSV File
 
-csv_path_input = os.path.join('C:/Users/kodar/Desktop/Homework Files (WIP)', 'houston_election_data.csv')
+csv_path_input = os.path.join('Resources', 'houston_election_data.csv')
 
 with open(csv_path_input, encoding="utf8", newline='') as input_file:
 
@@ -51,7 +51,7 @@ print("2nd Advancing Candidate: " + str(Sorted_Candidate_List[1]))
 print("------------------------------------------")
 
 # Create, Open, and Write Text File
-csv_path_output = os.path.join('C:/Users/kodar/Desktop/Homework Files (WIP)', 'houston_election_data_analysis.txt')
+csv_path_output = os.path.join('Output', 'houston_election_data_analysis.txt')
 
 with open(csv_path_output, "w") as output_file:
     output_file.write("\n")
